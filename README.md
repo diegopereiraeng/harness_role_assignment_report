@@ -33,7 +33,7 @@ Run the script using Python:
 python3 parse-role_assignments_report.py
 ```
 
-# Example Output
+## Example Output
 ```
 Account,Organization,Project,RoleAssignment,PrincipalType,PrincipalName,ResourceGroupIdentifier
 1_tyU3u7Qeu5lHrd-GtbWS,N/A,N/A,CustomerCCMRole,USER_GROUP,Customer_Harness,Harness_Resources
