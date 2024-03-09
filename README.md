@@ -33,6 +33,18 @@ Run the script using Python:
 python3 parse-role_assignments_report.py
 ```
 
+# Example Output
+```
+Account,Organization,Project,RoleAssignment,PrincipalType,PrincipalName,ResourceGroupIdentifier
+1_tyU3u7Qeu5lHrd-GtbWS,N/A,N/A,CustomerCCMRole,USER_GROUP,Customer_Harness,Harness_Resources
+1_tyU3u7Qeu5lHrd-GtbWS,N/A,N/A,Dashboard_Viewer,USER,Robin Wood,FinOps_Only
+1_tyU3u7Qeu5lHrd-GtbWS,N/A,N/A,Demo_Admin,USER_GROUP,Marketing and DevRel,Marketing_ORg
+1_tyU3u7Qeu5lHrd-GtbWS,N/A,N/A,Onboarding_Role,SERVICE_ACCOUNT,terraform_onboarding_demo,Onboarding_Org
+...
+1_tyU3u7Qeu5lHrd-GtbWS,default,GIT_FLOW_DEMO,FF_MASTER,USER,diego.pereira@harness.io,_all_project_level_resources
+1_tyU3u7Qeu5lHrd-GtbWS,default,GIT_FLOW_DEMO,FF_MASTER,SERVICE_ACCOUNT,ff-demo,_all_project_level_resources
+```
+
 The script will print the progress as it fetches data from the Harness API and will generate a CSV file named `role_assignments_summary.csv` in the current directory with the compiled role assignment details.
 
 ## Function Descriptions
